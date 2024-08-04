@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Awesome Restaurant</h1>
+    <div class="role-selection">
+        <button id="customer-btn">Customer</button>
+        <button id="staff-btn">Staff</button>
+    </div>
+    <div id="customer-section" style="display:none;">
+        <h2>Customer Section</h2>
+        <button onclick="viewMenu()">View Menu</button>
+        <button onclick="makeReservation()">Make Reservation</button>
+        <button onclick="viewReservation()">View Reservation</button>
+    </div>
+    <div id="staff-section" style="display:none;">
+        <h2>Staff Section</h2>
+        <button onclick="viewMenu()">View Menu</button>
+        <button onclick="addFood()">Add Food</button>
+        <button onclick="updateFood()">Update Food</button>
+        <button onclick="removeFood()">Remove Food</button>
+        <button onclick="manageReservations()">Manage Reservations</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
