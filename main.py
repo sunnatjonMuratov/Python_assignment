@@ -31,6 +31,7 @@ while True:
                 print('There is no such action!!!')
             else:
                 print('There is no such action!!!')
+                
     elif int(role) == 2:
         name_surname = staff.make_reservation_name()
         if name_surname not in restaurant.staff_members:
@@ -61,6 +62,7 @@ while True:
                     break
                 else:
                     print('There is no such action!!!')
+                    
     elif int(role) >= 3:
         print("There is no such action!")
     else:
