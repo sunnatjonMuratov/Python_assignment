@@ -31,7 +31,6 @@ def generate_reservation_page(reservations):
                     <th>Time</th>
                     <th>Guests</th>
                 </tr>"""
-# dadadadda
 
 
 # dada
