@@ -33,7 +33,6 @@ def generate_reservation_page(reservations):
                 </tr>"""
 
 
-# dada
     for res in reservations:
         html += f"<tr><td>{res[0]}</td><td>{res[1]}</td><td>{res[2]}</td><td>{res[3]}</td></tr>"
 
