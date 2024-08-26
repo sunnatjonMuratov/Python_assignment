@@ -19,4 +19,4 @@ function updateTime() {
         document.getElementById("current-time").innerHTML = formattedDate + " " + formattedTime;
     }
 
-    setInterval(updateTime, 1000);  // Update every second
+    setInterval(updateTime, 1000);
