@@ -15,7 +15,6 @@ else:
 
 
 class ReservationHandler(http.server.SimpleHTTPRequestHandler):
-
     def do_GET(self):
         if self.path == '/':
             self.path = 'index.html'
